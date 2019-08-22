@@ -2364,7 +2364,7 @@ ul{
 	width:100%;
 	background:#ffffff;
 	padding-left:20px;
-	padding-bottom:40px;
+	padding-bottom:20px;
 	border:1px solid #e9e9e9;
 	border-top:0;
 	-webkit-border-bottom-left-radius: 10px;
@@ -2389,8 +2389,14 @@ ul{
 .jp_rightside_job_categories_content ul{
 	margin-top:30px;
 }
+@media(max-width:767px){
+	.jp_rightside_job_categories_content ul{
+		margin-top:20px;
+	}
+}
 .jp_rightside_job_categories_content li{
 	margin-top:20px;
+	display: flex;
 }
 .jp_rightside_job_categories_content li a{
 	-webkit-transition: all 0.5s;
@@ -2434,6 +2440,11 @@ ul{
     -ms-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
+}
+@media (max-width:767px){
+	.jp_rightside_job_categories_content{
+		padding-bottom: 20px;
+	}
 }
 .jp_rightside_career_wrapper{
 	float:left;
@@ -4561,6 +4572,7 @@ ul{
 	.jp_contact_heading_main_wrapper{
 		padding-bottom: 20px;
 		padding-top:20px;
+		margin-top:20px;
 	}
 }
 
@@ -4624,6 +4636,12 @@ ul{
 	color:#aaaaaa;
 	line-height: 36px;
 }
+
+@media (max-width:767px){
+	.jp_contact_heading_wrapper p{
+		padding-top:20px;
+	}
+}
 .jp_contact_heading_wrapper span{
 	color:#ff5353;
 }
@@ -4631,10 +4649,22 @@ ul{
 	color:#a6e043;
 }
 
+@media (max-width:767px){
+	.jp_contact_heading_wrapper p{
+		font-size:20px;
+	}
+}
+
 .jp_contact_map_wrapper{
 	/*float:left;*/
 	width:100%;
 	position:relative;
+}
+
+@media (max-width:767px){
+	.jp_contact_heading_wrapper h2{
+		font-size: 16px;
+	}
 }
 
 /*--jp Contact form Wrapper Start --*/
@@ -4676,9 +4706,15 @@ ul{
 	float:left;
 	width:100%;
 	border:1px solid #e9e9e9;
-	padding:50px;
+	padding:10px 50px 20px;
 	background:#ffffff;
 	margin-top:60px;
+}
+
+@media (max-width:767px){
+	.jp_contact_form_box{
+		padding:10px 20px;
+	}
 }
 .jp_contact_inputs_wrapper input{
 	width:100%;
@@ -4695,6 +4731,11 @@ ul{
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
 }
+@media (max-width:767px){
+	.jp_contact_inputs_wrapper input{
+		padding-left: 30px;
+	}
+}
 .jp_contact_inputs_wrapper input:hover, .jp_contact_inputs_wrapper input:focus{
 	border:1px solid #d4d4d4;
 	-webkit-transition: all 0.5s;
@@ -4710,8 +4751,24 @@ ul{
     left: 40px;
 	color:#797979;
 }
+@media(max-width:767px){
+	.jp_contact_inputs_wrapper i{
+		left:25px;
+	}
+}
 .jp_contact_inputs3_wrapper{
 	margin-top:30px;
+}
+.jp_contact_inputs2_wrapper{
+	margin-top:30px;
+}
+.jp_contact_inputs2_wrapper i{
+	top:48px;
+}
+@media(max-width:767px){
+	.jp_contact_inputs2_wrapper i{
+		top:47px;
+	}
 }
 .jp_contact_inputs3_wrapper i{
 	top:48px;
@@ -4741,6 +4798,11 @@ ul{
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
 }
+@media(max-width:767px){
+	.jp_contact_inputs4_wrapper textarea{
+		padding-left:30px;
+	}
+}
 .jp_contact_inputs4_wrapper i{
 	position:absolute;
 	color:#797979;
@@ -4748,7 +4810,7 @@ ul{
 	z-index:1000;
 }
 .jp_contact_form_btn_wrapper ul{
-	margin-top:30px;
+	margin-top:15px;
 }
 .jp_contact_form_btn_wrapper li{
 	float:left;
@@ -4922,6 +4984,11 @@ ul{
 
 .add_margin{
 	margin-top:63px;
+}
+@media(max-width:767px){
+	.add_margin{
+		margin-top:0px;
+	}
 }
 
 .add_black{
